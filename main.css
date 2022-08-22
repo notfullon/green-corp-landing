@@ -45,6 +45,7 @@ button {
   width: 100px;
   height: 100px;
   animation: rotation 10s linear infinite;
+  position: absolute;
 }
 
 @keyframes rotation {
