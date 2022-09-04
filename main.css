@@ -149,6 +149,106 @@ button {
   color: #22a030;
 }
 
+.features__border {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #E6EAF4;
+}
+
+.features__feedback {
+  display: flex;
+}
+
+.features__feedback-left {
+  padding-right: 10px;
+}
+
+.features__feedback-left h2 {
+  font-size: 48px;
+}
+
+.features__feedback-left p {
+  font-size: 18px;
+  font-weight: 26px;
+  opacity: 0.7;
+}
+
+.features__feedback-right {
+  display: flex;
+  align-items: center;
+}
+
+.features__box {
+  padding: 30px 40px 25px 40px;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.features__box h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.features__savings-box {
+  background-color: #dc5e26;
+  box-shadow: 0px 6px 0px rgb(221 95 38 / 20%);
+  margin-right: 30px;
+}
+
+.features__rate-box {
+  background-color: #1D263A;
+  box-shadow: 0px 6px 0px rgb(29 38 58 / 20%);
+}
+
+.stars {
+  color: #ff7039;
+}
+
+.promo__image {
+  background-image: url("img/promo.png");
+  background-position: center;
+  background-size: 50% 50%;
+  flex-shrink: 0;
+  border: 1px solid black;
+}
+
+.promo {
+display: flex;
+}
+
+.promo__right {
+background-color: #dd5f26;
+padding: 160px 60px 160px 60px;
+}
+
+.promo__right__card {
+  background-color: #fff;
+  padding: 30px 40px 30px 40px;
+  font-size: 20px;
+  font-weight: 22px;
+  font-style: 500;
+  border-radius: 25px;
+}
+
+.promo__right__card p {
+  opacity: 0.8;
+}
+.promo_circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ec6b29;
+
+}
+
+.promo__right__line {
+  display: flex;
+  
+}
+
+
+
 
 .form__containter {
   width: 550px;
@@ -350,4 +450,42 @@ footer {
   .cards {
     grid-template-columns: auto;
   }
+
+  .features__feedback {
+    flex-direction: column;
+  }
+
+  .features__feedback-left {
+    padding-right: 0px;
+  }
+
+  .features__feedback-left h2 {
+    font-size: 36px;
+  }
+
+  .features__feedback-right {
+    flex-direction: column;
+    align-items: 0;
+  }
+
+  .features__box h3 {
+    font-size: 36px;
+  }
+
+  .features__savings-box {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .promo__image {
+    background-size: auto 500px;
+  }
+
+  .promo {
+    flex-direction: column;
+    }
+
+    .promo__right {
+      padding: 50px 10px 50px 10px;
+      }
 }
